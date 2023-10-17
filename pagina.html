@@ -7,92 +7,161 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body{
-            background-color: #ffdcec;
+        body {
+            background-color: #d7f9ff;
             margin-top: 0%;
             margin-left: 0%;
-            margin-right: 0%s;
+            margin-right: 0%;
+            margin-bottom: 0%;
         }
-        .container{
+
+        .container {
             display: flex;
             flex-wrap: wrap;
             max-width: 1400px;
             margin: auto;
             padding-top: 50px;
-            background-color: #ffdcec;
-            padding-left: 100px;
+            background-color: #ffffff;
+            justify-content: center;
+            box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 13px 10px 15px -3px rgba(0, 0, 0, 0.1);
+            margin-bottom: 50px;
+            margin-top: 50px;
+            border-left-width: 3px;
+            border-left-style: solid;
+            border-top-width: 3px;
+            border-top-style: solid;
+            border-right-width: 3px;
+            border-right-style: solid;
+            border-bottom-width: 3px;
+            border-bottom-style: solid;
+            border-color: black;
         }
 
-        .producto{
+        .producto {
             width: 20%;
             padding-bottom: 30px;
-            margin:1% ;
+            margin: 1%;
+            padding-top: 30px;
         }
 
-        .img-pr{
+        .img-pr {
             width: 100%;
         }
 
-        p{
+        p {
             color: black;
             font-family: 'Mukta', sans-serif;
             font-size: 2em;
         }
 
-        button{
-            width: 50%;
+        button {
+            width: 100%;
             height: 30px;
             font-family: 'Maven Pro', sans-serif;
-            border-color: black;
+            border-color: rgb(190, 88, 192);
             border-radius: 5px;
-            background: rgb(249,242,248);
-            background: radial-gradient(circle, rgba(249,242,248,1) 52%, rgba(246,234,244,1) 100%); 
+            background-color: rgb(149, 207, 255);
+            border-radius: 50px;
         }
-        h1{
+
+        h1 {
             text-align: center;
-            font-family:'Times New Roman', Times, serif;
-            font-size: 4em;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 3em;
         }
-        h2{
-            font-family:'Times New Roman', Times, serif;
-            font-size: 2em;
-            text-indent: 320px;
+
+        h2,h3 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.5em;
+            text-align: center;
         }
-        .champi{
+        h4{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.5em;
+            text-align: center;
+            background-color: #7dccec;
+        }
+
+
+        .champi {
             height: 280px;
             width: 280px;
         }
 
-        .tortu{
-            height: 280px;
-            width: 280px;
-        }
-        .pollito{
+        .tortu {
             height: 280px;
             width: 280px;
         }
 
-        header{
-            background: #FFE3F0;
-            padding-top:15px;
+        .pollito {
+            height: 280px;
+            width: 280px;
+        }
+
+        header {
+            background: rgb(227, 252, 255);
+            background: radial-gradient(circle, rgba(227, 252, 255, 1) 20%, rgba(122, 233, 235, 1) 100%);
             padding-bottom: 15px;
+            padding-top: 15px;
+            border-bottom-width: 3px;
+            border-bottom-style: solid;
         }
-        .poke{
-            height: 330px;
+
+        .poke {
+            height: 300px;
         }
-        .text{
-            background-color: #ffcde4;
-            
+
+        .text {
+            background-color: #a3e3f8;
+
+
+        }
+
+        span {
+            color: #4AD3D3;
+            font-family: 'Fira Sans', sans-serif;
+        }
+
+        picture {
+            justify-content: center;
+            display: flex;
+        }
+
+        .clase {
+            width: 100%;
+        }
+        footer{
+            background-color:#a3e3f8;
+            padding-bottom: 35px;
+            padding-top: 20px;
+        }
+        ul{
+            display: flex;
+            text-align: center;
+            text-decoration: none;
+            list-style: none;
+            padding-bottom: 10px;
+            justify-content: space-around;
+        }
+        a{
+            text-decoration: none;
         }
     </style>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap" rel="stylesheet">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yuji+Hentaigana+Akari&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -100,20 +169,25 @@
     <header>
         <h1>Plush & Joy</h1>
     </header>
-    <h2><u>Minecraft Plush</u></h2>
+
     <div class="container">
-        
+        <div class="clase">
+            <picture>
+                <img src="assets/mclogo.png" alt="" height="50px">
+            </picture>
+        </div>
         <div class="producto">
 
             <div class="text">
                 <img src="assets/mcslime-removebg-preview.png" alt="" class="img-pr">
             </div>
             <div>
-                <p>Slime Plush 
-                <br> $1000 <br>
-                <button>COMPRAR</button></p>
+                <p>Slime Plush
+                    <br> <span> $2500 </span><br>
+                    <button>COMPRAR</button>
+                </p>
             </div>
-            
+
         </div>
 
         <div class="producto">
@@ -121,9 +195,10 @@
                 <img src="assets/perico.png" alt="" class="img-pr">
             </div>
             <div>
-                <p>Parrot Plush 
-                <br>$1200 <br>
-                <button>COMPRAR</button></p>
+                <p>Parrot Plush
+                    <br><span>Free</span> <br>
+                    <button>COMPRAR</button>
+                </p>
             </div>
         </div>
 
@@ -132,9 +207,10 @@
                 <img src="assets/beeplush.png" alt="" class="img-pr">
             </div>
             <div>
-                <p>Bee Plush 
-                <br>$1500 <br>
-                <button>COMPRAR</button></p>
+                <p>Bee Plush
+                    <br><span>$3000</span> <br>
+                    <button>COMPRAR</button>
+                </p>
             </div>
         </div>
 
@@ -143,9 +219,10 @@
                 <img src="assets/creeper.png" alt="" class="img-pr">
             </div>
             <div>
-                <p>Creeper Plush 
-                <br>$1500 <br>
-                <button>COMPRAR</button></p>
+                <p>Creeper Plush
+                    <br><span>$3200</span><br>
+                    <button>COMPRAR</button>
+                </p>
             </div>
         </div>
 
@@ -154,10 +231,11 @@
                 <img src="assets/tortu.png" alt="" class="tortu">
             </div>
             <div>
-                <p>Turtle Plush 
-                <br>$1000 <br>
-                <button>COMPRAR</button></p>
-                </div>
+                <p>Turtle Plush
+                    <br><span>$3000</span> <br>
+                    <button>COMPRAR</button>
+                </p>
+            </div>
         </div>
 
         <div class="producto">
@@ -166,8 +244,9 @@
             </div>
             <div>
                 <p>Mooshroom Plush
-                <br>$1500 <br>
-                <button>COMPRAR</button></p>
+                    <br><span>$1800</span><br>
+                    <button>COMPRAR</button>
+                </p>
             </div>
         </div>
 
@@ -177,8 +256,9 @@
             </div>
             <div>
                 <p>Allay Plush
-                <br>$1500 <br>
-                <button>COMPRAR</button></p>
+                    <br><span>$3500</span><br>
+                    <button>COMPRAR</button>
+                </p>
             </div>
         </div>
 
@@ -188,8 +268,9 @@
             </div>
             <div>
                 <p>Chick Plush
-                <br>$1200 <br>
-                <button>COMPRAR</button></p>
+                    <br><span>$2000</span><br>
+                    <button>COMPRAR</button>
+                </p>
             </div>
         </div>
 
@@ -198,132 +279,172 @@
                 <img src="assets/cattt.png" alt="" class="pollito">
             </div>
             <div>
-                <p>Cat Plush 
-                <br>$1500 <br>
-                <button>COMPRAR</button></p>
+                <p>Cat Plush
+                    <br><span>$2000</span><br>
+                    <button>COMPRAR</button>
+                </p>
             </div>
         </div>
     </div>
-    <h2><u>Pokemon Plush</u></h2>
     <div class="container">
-
+        <div class="clase">
+            <picture>
+                <img src="assets/ re.png" alt="" height="90px">
+            </picture>
+        </div>
         <div class="producto">
 
-            <div>
+            <div class="text">
                 <img src="assets/sylveon.png" alt="" class="poke">
             </div>
             <div>
-                <p>Sylveon Plush <br>$2000</p>
+                <p>Sylveon Plush
+                    <br><span>$2800</span>
+                </p>
             </div>
             <div>
-              <button>COMPRAR</button>
+                <button>COMPRAR</button>
             </div>
         </div>
 
         <div class="producto">
 
-            <div>
+            <div class="text">
                 <img src="assets/umbreon.png" alt="" class="poke">
             </div>
             <div>
-                <p>Umbreon Plush <br>$2000</p>
+                <p>Umbreon Plush <br>
+                    <span>$2800</span>
+                </p>
             </div>
             <div>
-              <button>COMPRAR</button>
+                <button>COMPRAR</button>
             </div>
         </div>
 
         <div class="producto">
 
-            <div>
+            <div class="text">
                 <img src="assets/geg.png" alt="" class="poke">
             </div>
             <div>
-                <p>Gengar Plush <br>$1500</p>
+                <p>Gengar Plush <br>
+                    <span>$3500</span>
+                </p>
             </div>
             <div>
-              <button>COMPRAR</button>
+                <button>COMPRAR</button>
             </div>
         </div>
 
         <div class="producto">
 
-            <div>
+            <div class="text">
                 <img src="assets/dusk.png" alt="" class="poke">
             </div>
             <div>
-                <p>Duskull Plush <br>$2000</p>
+                <p>Duskull Plush <br><span>$2000</span></p>
             </div>
             <div>
-              <button>COMPRAR</button>
+                <button>COMPRAR</button>
             </div>
         </div>
 
         <div class="producto">
 
-            <div>
+            <div class="text">
                 <img src="assets/mimikyu.png" alt="" class="poke">
             </div>
             <div>
-                <p>Mimikyu Plush <br>$2000</p>
+                <p>Mimikyu Plush <br>
+                    <span>$2500</span>
+                </p>
             </div>
             <div>
-              <button>COMPRAR</button>
+                <button>COMPRAR</button>
             </div>
         </div>
 
         <div class="producto">
 
-            <div>
+            <div class="text">
                 <img src="assets/woop.png" alt="" class="poke">
             </div>
             <div>
-                <p>Shiny Wooper Plush <br>$2000</p>
+                <p>Shiny Wooper Plush <br>
+                    <span>$2000</span>
+                </p>
             </div>
             <div>
-              <button>COMPRAR</button>
+                <button>COMPRAR</button>
             </div>
         </div>
 
         <div class="producto">
 
-            <div>
+            <div class="text">
                 <img src="assets/row.png" alt="" class="poke">
             </div>
             <div>
-                <p>Rowlet Plush <br>$2000</p>
+                <p>Rowlet Plush <br>
+                    <span>$2600</span>
+                </p>
             </div>
             <div>
-              <button>COMPRAR</button>
+                <button>COMPRAR</button>
             </div>
         </div>
 
         <div class="producto">
 
-            <div>
+            <div class="text">
                 <img src="assets/bulba.png" alt="" class="poke">
             </div>
             <div>
-                <p>Bulbasaur Plush <br>$2000</p>
+                <p>Bulbasaur Plush <br>
+                    <span>$3000</span>
+                </p>
             </div>
             <div>
-              <button>COMPRAR</button>
+                <button>COMPRAR</button>
             </div>
         </div>
         <div class="producto">
 
-            <div>
+            <div class="text">
                 <img src="assets/pip.png" alt="" class="poke">
             </div>
             <div>
-                <p>Piplup Plush <br>$2000</p>
+                <p>Piplup Plush <br>
+                    <span>$2600</span>
+                </p>
             </div>
             <div>
-              <button>COMPRAR</button>
+                <button>COMPRAR</button>
             </div>
         </div>
 
     </div>
+    <footer>
+        <h3>Nuestras redes sociales</h3>
+        <ul>
+            <li> 
+                <a href="#"> <img src="assets/wsp.webp" alt="" height="50px"></a>
+            </li>
+            <li>
+                <a href="#"><img src="assets/ig.png" alt="" height="45px"></a>
+            </li>
+            <li>  
+                <a href="#"><img src="assets/fb.png" alt="" height="45px"></a>
+            </li>
+            <li>
+                <a href=""><img src="assets/twt.jpg" alt="" height="50px"></a>
+            </li>
+        </ul>
+
+        <h4>©Copyright 2023</h4>
+       
+    </footer>
 </body>
 
 </html>
