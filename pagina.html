@@ -5,14 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>P&J</title>
     <style>
         body {
-            background-color: #d7f9ff;
+            background-image: url(assets/bck.png);
             margin-top: 0%;
             margin-left: 0%;
             margin-right: 0%;
             margin-bottom: 0%;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
 
         .container {
@@ -35,6 +37,7 @@
             border-bottom-width: 3px;
             border-bottom-style: solid;
             border-color: black;
+            border-radius: 100px;
         }
 
         .producto {
@@ -42,6 +45,7 @@
             padding-bottom: 30px;
             margin: 1%;
             padding-top: 30px;
+            
         }
 
         .img-pr {
@@ -56,10 +60,10 @@
 
         button {
             width: 100%;
-            height: 30px;
-            font-family: 'Maven Pro', sans-serif;
+            height: 40px;
+            font-family: 'Barlow Semi Condensed', sans-serif;
+            font-size: x-large;
             border-color: rgb(190, 88, 192);
-            border-radius: 5px;
             background-color: rgb(149, 207, 255);
             border-radius: 50px;
         }
@@ -79,7 +83,7 @@
             font-family: 'Times New Roman', Times, serif;
             font-size: 1.5em;
             text-align: center;
-            background-color: #7dccec;
+            background-color: #f1c5f5;
         }
 
 
@@ -103,7 +107,7 @@
             background: radial-gradient(circle, rgba(227, 252, 255, 1) 20%, rgba(122, 233, 235, 1) 100%);
             padding-bottom: 15px;
             padding-top: 15px;
-            border-bottom-width: 3px;
+            border-bottom-width: 0px;
             border-bottom-style: solid;
         }
 
@@ -131,13 +135,15 @@
             width: 100%;
         }
         footer{
-            background-color:#a3e3f8;
+            background-image: url(assets/fot.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
             padding-bottom: 35px;
             padding-top: 20px;
         }
         ul{
             display: flex;
-            text-align: center;
+            text-align: right;
             text-decoration: none;
             list-style: none;
             padding-bottom: 10px;
@@ -145,6 +151,26 @@
         }
         a{
             text-decoration: none;
+            color: black;
+            text-shadow: 1px 1px 1px #4400ff;
+        }
+
+        nav{
+            border-top-style: solid;
+            border-top-width: 1px;
+            border-bottom-width: 1px;
+            border-bottom-style: solid;
+            border-left-width: 1px;
+            border-left-style: solid;
+            border-right-width: 1px;
+            border-right-style: solid;
+            background-color: #e8fffd94;
+        }
+
+        li{
+            padding-top: 10px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 2em;
         }
     </style>
 
@@ -162,6 +188,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -169,8 +199,16 @@
     <header>
         <h1>Plush & Joy</h1>
     </header>
+    <nav>
+        <ul>
+            <li><a href="">Inicio</a></li>
+            <li><a href="#pokemon">Pokemon</a></li>
+            <li><a href="#minecraft">Minecraft</a></li>
+            <li><a href="">Personajes</a></li>
+        </ul>
+    </nav>
 
-    <div class="container">
+    <div class="container" id="minecraft">
         <div class="clase">
             <picture>
                 <img src="assets/mclogo.png" alt="" height="50px">
@@ -184,7 +222,7 @@
             <div>
                 <p>Slime Plush
                     <br> <span> $2500 </span><br>
-                    <button>COMPRAR</button>
+                    <button><a href="">COMPRAR</a></button>
                 </p>
             </div>
 
@@ -197,7 +235,7 @@
             <div>
                 <p>Parrot Plush
                     <br><span>Free</span> <br>
-                    <button>COMPRAR</button>
+                    <button><a href="">COMPRAR</a></button>
                 </p>
             </div>
         </div>
@@ -209,7 +247,7 @@
             <div>
                 <p>Bee Plush
                     <br><span>$3000</span> <br>
-                    <button>COMPRAR</button>
+                    <button><a href="">COMPRAR</a></button>
                 </p>
             </div>
         </div>
@@ -221,7 +259,7 @@
             <div>
                 <p>Creeper Plush
                     <br><span>$3200</span><br>
-                    <button>COMPRAR</button>
+                    <button><a href="">COMPRAR</a></button>
                 </p>
             </div>
         </div>
@@ -233,7 +271,7 @@
             <div>
                 <p>Turtle Plush
                     <br><span>$3000</span> <br>
-                    <button>COMPRAR</button>
+                    <button><a href="">COMPRAR</a></button>
                 </p>
             </div>
         </div>
@@ -245,7 +283,7 @@
             <div>
                 <p>Mooshroom Plush
                     <br><span>$1800</span><br>
-                    <button>COMPRAR</button>
+                    <button><a href="">COMPRAR</a></button>
                 </p>
             </div>
         </div>
@@ -257,7 +295,7 @@
             <div>
                 <p>Allay Plush
                     <br><span>$3500</span><br>
-                    <button>COMPRAR</button>
+                    <button><a href="">COMPRAR</a></button>
                 </p>
             </div>
         </div>
@@ -269,7 +307,7 @@
             <div>
                 <p>Chick Plush
                     <br><span>$2000</span><br>
-                    <button>COMPRAR</button>
+                    <button><a href="">COMPRAR</a></button>
                 </p>
             </div>
         </div>
@@ -281,12 +319,12 @@
             <div>
                 <p>Cat Plush
                     <br><span>$2000</span><br>
-                    <button>COMPRAR</button>
+                    <button><a href="">COMPRAR</a></button>
                 </p>
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container" id="pokemon">
         <div class="clase">
             <picture>
                 <img src="assets/ re.png" alt="" height="90px">
@@ -303,7 +341,7 @@
                 </p>
             </div>
             <div>
-                <button>COMPRAR</button>
+                <button><a href="">COMPRAR</a></button>
             </div>
         </div>
 
@@ -318,7 +356,7 @@
                 </p>
             </div>
             <div>
-                <button>COMPRAR</button>
+                <button><a href="">COMPRAR</a></button>
             </div>
         </div>
 
@@ -333,7 +371,7 @@
                 </p>
             </div>
             <div>
-                <button>COMPRAR</button>
+                <button><a href="">COMPRAR</a></button>
             </div>
         </div>
 
@@ -346,7 +384,7 @@
                 <p>Duskull Plush <br><span>$2000</span></p>
             </div>
             <div>
-                <button>COMPRAR</button>
+                <button><a href="">COMPRAR</a></button>
             </div>
         </div>
 
@@ -361,7 +399,7 @@
                 </p>
             </div>
             <div>
-                <button>COMPRAR</button>
+                <button><a href="">COMPRAR</a></button>
             </div>
         </div>
 
@@ -376,7 +414,7 @@
                 </p>
             </div>
             <div>
-                <button>COMPRAR</button>
+                <button><a href="">COMPRAR</a></button>
             </div>
         </div>
 
@@ -391,7 +429,7 @@
                 </p>
             </div>
             <div>
-                <button>COMPRAR</button>
+                <button><a href="">COMPRAR</a></button>
             </div>
         </div>
 
@@ -406,7 +444,7 @@
                 </p>
             </div>
             <div>
-                <button>COMPRAR</button>
+                <button><a href="">COMPRAR</a></button>
             </div>
         </div>
         <div class="producto">
@@ -420,7 +458,7 @@
                 </p>
             </div>
             <div>
-                <button>COMPRAR</button>
+                <button><a href="">COMPRAR</a></button>
             </div>
         </div>
 
